@@ -2211,7 +2211,7 @@ if __name__ == "__main__":
                 print(f"Processing: {exam['exam_short_name']}")
                 wrapped_exam = {
                     "exam_id": exam_counter,
-                    "exam_data": exam
+                    "exam_data": exam_data
                 }
 
                 exam_counter += 1
